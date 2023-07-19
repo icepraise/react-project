@@ -31,6 +31,7 @@ const Footer = () => {
             <li>Sport</li>
             <li>Affiliate</li>
             <li>Suggestions</li>
+            <li>Anything</li>
           </ul>
           </div>
           <div data-aos="fade-up">
