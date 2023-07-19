@@ -1,0 +1,162 @@
+body{
+    color: black;
+}
+@media screen and (max-width: 750px){
+    body{
+        background-color: pink;
+        display: grid;
+        margin: auto;
+    }
+    #sidebar{
+        max-height: 200px;
+        max-width:600px;
+    }
+    .main{
+        display: grid;
+        background-color: blue;
+        width: fit-content;
+        /* float: right; */
+    }
+    #front{
+        max-width: 350px;
+        max-height: 200px;
+    }
+    #back{
+        max-width: 350px;
+        max-height: 200px;
+    }
+    #content{
+        /* max-width: 40px; */
+    }
+}
+
+.main{
+    /* justify-content: center; */
+    display: grid;
+    font-weight: 500;
+    color: hsl(278, 68%, 11%);
+    font-size: 18px;
+}
+b3{
+    margin-top: 1rem;
+}
+input{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: hsl(279, 6%, 55%);
+    border-style:solid ;
+    padding-inline-start: 15px;
+}
+button{
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.back{
+    display: flex;
+}
+#month {
+    width: 70px;
+}
+#year {
+    width: 70px;
+    margin-left: -90px;
+}
+#cvc {
+    width: 180px;
+    margin-left: -60px;
+}
+b4{
+    margin-top: -25px;
+    margin-left: 25px;
+}
+#sidebar{
+    width: 350px;
+    height: 800px;
+    float: left;
+    background-image:url(bg-main-desktop.png);
+    position: absolute;
+    
+}
+#front{
+    width: 440px;
+    height: 240px;
+    margin-top: 140px;
+    margin-left: 80px;
+    border-radius: 5px;
+    background-image: url(bg-card-front.png);
+    position: relative;
+
+}
+#back{
+    width: 440px;
+    height: 240px;
+    margin-top: 20px;
+    margin-left: 140px;
+    border-radius: 5px;
+    background-image: url(bg-card-back.png);
+    position: relative;
+    
+
+}
+#content{
+    display: grid;
+    justify-content: center;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+#num{
+    padding-top: 30px;
+    margin-bottom: -20px;
+}
+#name{
+    width: fit-content;
+    float: left;
+    margin-top: 40px;
+}
+#months{
+    width: fit-content;
+    float: right;
+    margin-top: 40px;
+}
+#years{
+    width: fit-content;
+    float: right;
+    margin-top: 40px;
+}
+#cvcs{
+    padding-top: 110px;
+    float: right;
+    margin-right: 50px;
+}
+#st{
+    width: fit-content;
+    float: right;
+    margin-top: 40px;
+}
+#err{
+    color: red;
+    font-size: small;
+}
+#b{
+    background-color: hsl(270, 3%, 100%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border-style: none;
+    float: left;
+}
+#b1{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: hsl(270, 3%, 87%);
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}

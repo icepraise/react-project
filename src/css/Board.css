@@ -1,0 +1,10 @@
+.overall{
+  background: linear-gradient(rgba(27, 27, 161, 0.4), rgba(14, 14, 160, 0.4)), url('../images/image10.jpg') no-repeat fixed center center;
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+}
+.class{
+  height: 50vh;
+  width: 40vw;
+}
